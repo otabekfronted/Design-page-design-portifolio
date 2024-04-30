@@ -233,18 +233,19 @@
         font-size: 1.8rem;
     }
 
-    .newspaper {
+    .newspaper .bitmap {
+        margin-left: -17.5rem;
         width: 27rem;
-    }
-    .bitmap {
-        margin-left: -45rem;
-    }
-    .paper {
-        width: 0%;
-        display: none;
-        /* gap: 3rem; */
+        height: 180px;
     }
 
+    .newspaper .papaer {
+        width: 27rem;
+    }
+    .newspaper .gazeta {
+        width: 27rem;
+        height: 18rem;
+    }
     .box-full-info {
         display: flex;
         flex-direction: column;
