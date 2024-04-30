@@ -123,6 +123,9 @@
 }
 
 @media (max-width: 375px) {
+    html {
+        scroll-behavior: smooth;
+    }
     .btn {
         width: 208px;
         font-size: 14px;
@@ -153,7 +156,7 @@
         /* width: 690px; */
     }
     .card-box__graphic {
-        width: 33.3rem;
+        width: 34.3rem;
         height: 36.4rem;
         background-color: #755cde;
         border-radius: 0.8rem;
@@ -163,65 +166,64 @@
         left: 20.2rem;
     }
     .card-box__ui-ux {
-        width: 15.5rem;
+        width: 15.9rem;
         height: 18.2rem;
         background-color: #f6a560;
-        border-radius: 0.8rem;
-        position: absolute;
-        top: 0;
-        left: 36rem;
-    }
-    .card-box__apps {
-        width: 15.5rem;
-        height: 18.2rem;
-        background-color: #f39e9e;
-        border-radius: 0.8rem;
-        position: absolute;
-        top: 0;
-        left: 53.5rem;
-    }
-    .card-box__illustrations {
-        width: 33.3rem;
-        height: 15.8rem;
-        background-color: #eb7565;
-        border-radius: 0.8rem;
-        position: absolute;
-        top: 20.4rem;
-        left: 36rem;
-    }
-    .card-box__photography {
-        width: 33.3rem;
-        height: 18.2rem;
-        background-color: #61c4b7;
         border-radius: 0.8rem;
         position: absolute;
         top: 38.8rem;
         left: 0rem;
     }
+    .card-box__apps {
+        width: 15.9rem;
+        height: 18.2rem;
+        background-color: #f39e9e;
+        border-radius: 0.8rem;
+        position: absolute;
+        top: 38.8rem;
+        left: 18.4rem;
+    }
+    .card-box__illustrations {
+        width: 34.3rem;
+        height: 15.8rem;
+        background-color: #eb7565;
+        border-radius: 0.8rem;
+        position: absolute;
+        top: 59.4rem;
+        left: 0rem;
+    }
+    .card-box__photography {
+        width: 34.3rem;
+        height: 18.2rem;
+        background-color: #61c4b7;
+        border-radius: 0.8rem;
+        position: absolute;
+        top: 77.6rem;
+        left: 0rem;
+    }
     .card-box__motion-graphics {
-        width: 33.3rem;
+        width: 34.3rem;
         height: 18.2rem;
         position: absolute;
-        top: 38.5rem;
-        left: 36rem;
+        top: 98.2rem;
+        left: 0rem;
     }
-    .grap {
-        position: absolute;
-        left: 18rem;
-    }
+
     .person-container {
         padding-top: 120px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 1.3rem;
+        flex-direction: column;
+        width: 343px;
+        margin-top: 78rem;
     }
     .person-container__img {
-        width: 340px;
-        height: 340px;
+        width: 343px;
+        height: 343px;
     }
     .person-container__info {
         width: 339px;
+        text-align: center;
     }
     .person__title {
         font-size: 3.2rem;
@@ -232,13 +234,15 @@
     }
 
     .newspaper {
+        width: 27rem;
     }
     .bitmap {
-        margin-left: -34rem;
+        margin-left: -45rem;
     }
     .paper {
-        width: 54rem;
-        gap: 3rem;
+        width: 0%;
+        display: none;
+        /* gap: 3rem; */
     }
 
     .box-full-info {
@@ -247,6 +251,22 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 2.6rem;
+        /* gap: 2.6rem; */
+    }
+    .call--info {
+        left: -50%;
+        transform: translateX(15px);
+    }
+    .call--info__title {
+        font-size: 2.6rem;
+    }
+    .call--info__info {
+        width: 29.5rem;
+        font-size: 1.6rem;
+    }
+    .person-btn {
+        margin-left: 1.8rem;
+    }
+    .btn {
     }
 }
