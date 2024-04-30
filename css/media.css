@@ -1,0 +1,252 @@
+@import url(./style.css);
+
+@media (max-width: 768px) {
+    html {
+        scroll-behavior: smooth;
+    }
+    .design-title {
+        text-align: center;
+        width: 690px;
+    }
+    .design-container__title {
+        font-size: 4.4rem;
+    }
+    .design-container__info {
+        width: 573px;
+        left: 50%;
+        transform: translateX(55px);
+    }
+
+    .card-box {
+        margin-bottom: 13.6rem;
+        margin-top: 8rem;
+        position: relative;
+        /* width: 690px; */
+    }
+    .card-box__graphic {
+        width: 33.3rem;
+        height: 36.4rem;
+        background-color: #755cde;
+        border-radius: 0.8rem;
+    }
+    .grap {
+        position: absolute;
+        left: 20.2rem;
+    }
+    .card-box__ui-ux {
+        width: 15.5rem;
+        height: 18.2rem;
+        background-color: #f6a560;
+        border-radius: 0.8rem;
+        position: absolute;
+        top: 0;
+        left: 36rem;
+    }
+    .card-box__apps {
+        width: 15.5rem;
+        height: 18.2rem;
+        background-color: #f39e9e;
+        border-radius: 0.8rem;
+        position: absolute;
+        top: 0;
+        left: 53.5rem;
+    }
+    .card-box__illustrations {
+        width: 33.3rem;
+        height: 15.8rem;
+        background-color: #eb7565;
+        border-radius: 0.8rem;
+        position: absolute;
+        top: 20.4rem;
+        left: 36rem;
+    }
+    .card-box__photography {
+        width: 33.3rem;
+        height: 18.2rem;
+        background-color: #61c4b7;
+        border-radius: 0.8rem;
+        position: absolute;
+        top: 38.8rem;
+        left: 0rem;
+    }
+    .card-box__motion-graphics {
+        width: 33.3rem;
+        height: 18.2rem;
+        position: absolute;
+        top: 38.5rem;
+        left: 36rem;
+    }
+    .grap {
+        position: absolute;
+        left: 18rem;
+    }
+    .person-container {
+        padding-top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.3rem;
+    }
+    .person-container__img {
+        width: 340px;
+        height: 340px;
+    }
+    .person-container__info {
+        width: 339px;
+    }
+    .person__title {
+        font-size: 3.2rem;
+        margin-bottom: 1.5rem;
+    }
+    .person__info {
+        font-size: 1.8rem;
+    }
+
+    .newspaper {
+    }
+    .bitmap {
+        margin-left: -34rem;
+    }
+    .paper {
+        width: 54rem;
+        gap: 3rem;
+    }
+
+    .box-full-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 2.6rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .btn {
+        width: 208px;
+        font-size: 14px;
+    }
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .design-container__title {
+        width: 343px;
+        font-size: 3.6rem;
+    }
+    .design-container__info {
+        width: 285px;
+        height: 104px;
+        left: -50%;
+        transform: translateX(30px);
+        font-size: 1.6rem;
+        padding: 0 29px;
+        text-align: center;
+    }
+
+    .card-box {
+        margin-bottom: 13.6rem;
+        margin-top: 8rem;
+        position: relative;
+        /* width: 690px; */
+    }
+    .card-box__graphic {
+        width: 33.3rem;
+        height: 36.4rem;
+        background-color: #755cde;
+        border-radius: 0.8rem;
+    }
+    .grap {
+        position: absolute;
+        left: 20.2rem;
+    }
+    .card-box__ui-ux {
+        width: 15.5rem;
+        height: 18.2rem;
+        background-color: #f6a560;
+        border-radius: 0.8rem;
+        position: absolute;
+        top: 0;
+        left: 36rem;
+    }
+    .card-box__apps {
+        width: 15.5rem;
+        height: 18.2rem;
+        background-color: #f39e9e;
+        border-radius: 0.8rem;
+        position: absolute;
+        top: 0;
+        left: 53.5rem;
+    }
+    .card-box__illustrations {
+        width: 33.3rem;
+        height: 15.8rem;
+        background-color: #eb7565;
+        border-radius: 0.8rem;
+        position: absolute;
+        top: 20.4rem;
+        left: 36rem;
+    }
+    .card-box__photography {
+        width: 33.3rem;
+        height: 18.2rem;
+        background-color: #61c4b7;
+        border-radius: 0.8rem;
+        position: absolute;
+        top: 38.8rem;
+        left: 0rem;
+    }
+    .card-box__motion-graphics {
+        width: 33.3rem;
+        height: 18.2rem;
+        position: absolute;
+        top: 38.5rem;
+        left: 36rem;
+    }
+    .grap {
+        position: absolute;
+        left: 18rem;
+    }
+    .person-container {
+        padding-top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.3rem;
+    }
+    .person-container__img {
+        width: 340px;
+        height: 340px;
+    }
+    .person-container__info {
+        width: 339px;
+    }
+    .person__title {
+        font-size: 3.2rem;
+        margin-bottom: 1.5rem;
+    }
+    .person__info {
+        font-size: 1.8rem;
+    }
+
+    .newspaper {
+    }
+    .bitmap {
+        margin-left: -34rem;
+    }
+    .paper {
+        width: 54rem;
+        gap: 3rem;
+    }
+
+    .box-full-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 2.6rem;
+    }
+}
